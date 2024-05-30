@@ -1,0 +1,26 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remover estilos padrão para elementos específicos */
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tornar imagens e elementos multimídia responsivos */
+img, video, audio {
+  max-width: 100%;
+  height: auto;
+}

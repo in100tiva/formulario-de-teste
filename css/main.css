@@ -1,0 +1,32 @@
+/* Importar estilos base */
+@import 'base/reset.css';
+@import 'base/typography.css';
+
+/* Importar estilos utilitários */
+@import 'utilities/variables.css';
+@import 'utilities/animations.css';
+
+/* Importar estilos de componentes */
+@import 'components/form.css';
+@import 'components/buttons.css';
+@import 'components/messages.css';
+
+/* Estilos adicionais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+}
